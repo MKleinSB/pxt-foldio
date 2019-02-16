@@ -4,16 +4,16 @@
 //% weight=120 color=#0fbc11 icon=""
 namespace Foldio {
     /**
- 
+     * Tue etwas wenn das linke Ohr berührt wurde
      */
-    //% blockId=device_foldio_leftEar block="Wenn linkes Ohr berührt wird"
+    //% blockId=device_foldio_leftEar block="Wenn linkes Ohr berührt"
     //%blockExternalInputs=false
     export function lTouch(body: Action): void {
         input.onPinPressed(TouchPin.P0, body)
     }
 
     /**
-  
+     * Tue etwas wenn das rechte Ohr berührt wurde
      */
     //% blockId=device_foldio_rightEar block="Wenn rechtes Ohr berührt wird"
     //%blockExternalInputs=false
@@ -22,7 +22,7 @@ namespace Foldio {
     }
 
     /**
-     
+     * Lasse die Augen 2x blinken
      */
     //% blockId=device_foldio_blinken block="َAugen blinken lassen"
     //%blockExternalInputs=false
