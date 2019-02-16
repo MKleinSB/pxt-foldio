@@ -18,7 +18,7 @@ namespace Foldio {
     //% blockId=device_foldio_rightEar block="Wenn rechtes Ohr berührt"
     //%blockExternalInputs=false
     export function rTouch(body: Action): void {
-        input.onPinPressed(23, body) //needed to be changed to compile correctly
+        input.onPinPressed(23, body) //needed to be changed to compile correctly 23 = P0
     }
 
     /**
