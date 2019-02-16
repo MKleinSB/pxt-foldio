@@ -1,7 +1,7 @@
 /**
  * Custom blocks
  */
-//% weight=120 color=#0fbc11 icon=""
+//% weight=120 color=#0fbc11 icon="\uf296"
 namespace Foldio {
     /**
      * Tue etwas wenn das linke Ohr berührt wurde
