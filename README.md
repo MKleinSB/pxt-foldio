@@ -11,6 +11,6 @@ Makecode Blöcke für die genialen Papercircuits von https://www.foldio.tech/
 
 ## Supported targets
 
-* for Pfor PXT/calliope
+* for for PXT/calliope
 
 
