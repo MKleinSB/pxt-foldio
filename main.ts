@@ -1,5 +1,5 @@
 /**
- * Custom blocks
+ * Custom blocks for foldio
  */
 //% weight=120 color=#0fbc11 icon="\uf296"
 namespace Foldio {
@@ -56,8 +56,4 @@ namespace Foldio {
             . . . . .
             `)
     }
-
-
-
-
 }
