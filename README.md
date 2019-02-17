@@ -2,7 +2,7 @@
 Makecode Blöcke für die genialen Papercircuits von https://www.foldio.tech/
 
 ![](https://github.com/MKleinSB/pxt-foldio/blob/master/foldio2.png) 
-![](https://github.com/MKleinSB/pxt-foldio/blob/master/foldio.png) 
+![](https://github.com/MKleinSB/pxt-foldio/blob/master/foldio1.png) 
 
 
 ## License
