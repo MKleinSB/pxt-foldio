@@ -1,7 +1,7 @@
 /**
- * Custom blocks
+ * Custom blocks for FoldIO
  */
-//% weight=120 color=#0fbc11 icon=""
+//% weight=120 color=#0fbc11 icon="\uf296"
 namespace Foldio {
     /**
      * Tue etwas wenn das linke Ohr berührt wurde
@@ -15,10 +15,10 @@ namespace Foldio {
     /**
      * Tue etwas wenn das rechte Ohr berührt wurde
      */
-    //% blockId=device_foldio_rightEar block="Wenn rechtes Ohr berührt wird"
+    //% blockId=device_foldio_rightEar block="Wenn rechtes Ohr berührt"
     //%blockExternalInputs=false
     export function rTouch(body: Action): void {
-        input.onPinPressed(23, body) //need to be changes to compile correct
+        input.onPinPressed(23, body) //needed to be changed to compile correctly 23 = P0
     }
 
     /**
@@ -56,8 +56,4 @@ namespace Foldio {
             . . . . .
             `)
     }
-
-
-
-
 }
