@@ -71,5 +71,37 @@ namespace Foldio {
         music.playTone(659, music.beat(BeatFraction.Whole))
         music.playTone(523, music.beat(BeatFraction.Whole))
     }
+    /**
+      * Schalten die Augen mit maximaler Helligkeit ein.
+      */
+    //% weight=93 blockGap=8
+    //% blockId=foldio_aufwachen
+    //% block="Aufwachen"
+    export function aufWachen() {
+        led.setBrightness(255)
+        basic.showLeds(`
+            # # . # #
+            # # . # #
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+    }
+
+    /**
+     * Nach und nach die Helligkeit reduzieren
+     */
+    //% weight=92 blockGap=8
+    //% blockId=foldio_schlafen
+    //% block="Schlafen"
+    export function schlafen() {
+        if (led.brightness() == 255) {
+            for (let a = 255; a > 0; a--) {
+                led.setBrightness(a)
+                basic.pause(7)
+            }
+        }
+
+    }
 
 }
