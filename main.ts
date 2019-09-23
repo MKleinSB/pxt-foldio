@@ -21,6 +21,13 @@ namespace Foldio {
         input.onPinPressed(23, body) //needed to be changed to compile correctly 23 = P0
     }
 
+    enum LeiseoderLaut {
+        //% block="laut"
+        Laut = 1,
+        //% block="leise"
+        Leise = 0
+    }
+
     /**
      * Lasse die Augen 2x blinken
      */
