@@ -1,7 +1,7 @@
 {
     "name": "pxt-foldio",
     "version": "0.0.9",
-    "description": "PLay, code, learn with intelligent paper",
+    "description": "Play, code, learn with intelligent paper",
     "dependencies": {
         "core": "*",
         "radio": "*"
